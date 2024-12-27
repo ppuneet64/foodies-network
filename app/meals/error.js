@@ -1,6 +1,7 @@
 'use client';
 
-const Error = () => {
+const Error = (props) => {
+    console.log("Error: ", props, JSON.stringify(props));
     return (
         <div className="error">
             <h1>Something went wrong!</h1>
