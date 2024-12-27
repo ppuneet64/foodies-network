@@ -6,8 +6,8 @@ import { useFormState } from "react-dom";
 import SubmitButton from '@/components/meals-grid/submit-form';
 
 export default function ShareMealPage() {
-  const [status, formAction] = useFormState(shareMeal, null);
-
+  const [status , formAction] = useFormState(shareMeal, null);
+  console.log(status);
   return (
     <>
       <header className={classes.header}>
